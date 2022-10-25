@@ -34,6 +34,3 @@ button {
 .gallery__item {
   width: calc((100% - 100px) / 3);
 }
-
-gallery__img {
-}
