@@ -8,6 +8,6 @@ function onFormLoginSubmit(e) {
   }
   const formData = { email: email.value, password: password.value };
   console.log(formData);
-  e.currentTarget.reset;
+  e.currentTarget.reset();
 }
 formElem.addEventListener("submit", onFormLoginSubmit);
